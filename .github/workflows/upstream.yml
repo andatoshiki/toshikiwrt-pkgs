@@ -231,7 +231,7 @@ jobs:
         rm -Rf */.git
 
     - name: SSH connection to Actions
-      uses: andatoshiki/debugger-action@master
+      uses: kiddin9/debugger-action@master
       if: github.event.inputs.ssh == 'true'
 
     - name: Apply patches
