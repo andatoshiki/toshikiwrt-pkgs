@@ -8,7 +8,7 @@ include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=r8168
 PKG_VERSION:=8.050.03
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/BROBIRD/openwrt-r8168.git
@@ -23,7 +23,6 @@ define KernelPackage/r8168
   TITLE:=Driver for Realtek r8168 chipsets
   SUBMENU:=Network Devices
   VERSION:=$(LINUX_VERSION)+$(PKG_VERSION)-$(BOARD)-$(PKG_RELEASE)
-  DEPENDS:=@PCI_SUPPORT
   FILES:= $(PKG_BUILD_DIR)/src/r8168.ko
   AUTOLOAD:=$(call AutoProbe,r8168)
   CONFLICTS:=kmod-r8169

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:40+0200\n"
-"PO-Revision-Date: 2022-07-23 18:25+0000\n"
+"PO-Revision-Date: 2022-10-29 20:58+0000\n"
 "Last-Translator: INAGAKI Hiroshi <musashino.open@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/luci/ja/"
 ">\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:643
 msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
 msgid "\"%h\" table \"%h\""
-msgstr ""
+msgstr "\"%h\" テーブル \"%h\""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1523
 msgid "%.1f dB"
@@ -1532,6 +1532,10 @@ msgstr ""
 msgid "Compute outgoing checksum (optional)."
 msgstr "送信チェックサムを計算します（オプション）。"
 
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Config File"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4367
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
 msgid "Configuration"
@@ -2137,7 +2141,7 @@ msgstr "無効"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:543
 msgctxt "Label indicating that WireGuard peer is disabled"
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1191
 #, fuzzy
@@ -2628,7 +2632,7 @@ msgstr "カプセル化されたパケットの DF（Don't Fragment）フラグ�
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:480
 msgid "Enable the built-in single-instance TFTP server."
-msgstr ""
+msgstr "ビルトインの単一インスタンス TFTP サーバーを有効化します。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:895
 msgid "Enable this network"
@@ -2858,11 +2862,11 @@ msgstr "追加のpppdオプション"
 msgid "Extra sstpc options"
 msgstr "追加のsstpcオプション"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
 msgid "FT over DS"
 msgstr "FT over DS"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
 msgid "FT over the Air"
 msgstr "FT over the Air"
 
@@ -3259,13 +3263,13 @@ msgstr "グローバルネットワークオプション"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:82
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:89
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:74
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:92
 msgid "Go to firmware upgrade..."
-msgstr ""
+msgstr "ファームウェアのアップグレードへ移動..."
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:72
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:64
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:82
 msgid "Go to password configuration..."
 msgstr "パスワード設定へ移動..."
@@ -3485,11 +3489,11 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:19
 msgid "How long (in milliseconds) the LED should be off"
-msgstr ""
+msgstr "LED が消灯している長さ（ミリ秒）"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:13
 msgid "How long (in milliseconds) the LED should be on"
-msgstr ""
+msgstr "LED が点灯している長さ（ミリ秒）"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:276
 msgid "Human-readable counters"
@@ -3500,12 +3504,20 @@ msgid "Hybrid"
 msgstr "ハイブリッド"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:49
+msgctxt "nft icmp code"
+msgid "ICMP code"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
+msgctxt "nft icmp type"
+msgid "ICMP type"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:51
 msgctxt "nft icmpv6 code"
 msgid "ICMPv6 code"
 msgstr ""
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:52
 msgctxt "nft icmpv6 type"
 msgid "ICMPv6 type"
@@ -4427,7 +4439,7 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:671
 msgid "Legacy rules detected"
-msgstr ""
+msgstr "レガシー ルールを検出"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4369
 msgid "Legend:"
@@ -5178,10 +5190,14 @@ msgstr "名前"
 msgid "Name of the new network"
 msgstr "新規ネットワークの名前"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:44
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:46
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:50
 msgid "Navigation"
 msgstr "ナビゲーション"
+
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:10
+msgid "Nebula Network"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:653
 msgid "Neighbour cache validity"
@@ -5314,7 +5330,7 @@ msgstr "RX信号なし"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:80
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:87
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:70
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:90
 msgid ""
 "No changes to settings will be stored and are lost after rebooting. This "
@@ -5403,7 +5419,7 @@ msgid "No nftables ruleset loaded."
 msgstr ""
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:69
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:59
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:61
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:79
 msgid "No password set!"
 msgstr "パスワードが設定されていません！"
@@ -5606,7 +5622,7 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:676
 msgid "Open iptables rules overview…"
-msgstr ""
+msgstr "iptables ルールの概要を開く…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:472
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:19
@@ -6713,6 +6729,10 @@ msgstr "DOCSIS 3などを使用するいくつかのISPで必要です"
 msgid "Required. Base64-encoded private key for this interface."
 msgstr "このインターフェースに使用するBase64エンコードの秘密鍵（必須）。"
 
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Required. Path to the .yml config file for this interface."
+msgstr ""
+
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:587
 msgid "Required. Public key of the WireGuard peer."
 msgstr ""
@@ -7269,7 +7289,7 @@ msgstr "重大エラー秒数（SES）"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:210
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:39
 msgid "Short GI"
-msgstr "Short GI"
+msgstr "ショートGI"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1164
 msgid "Short Preamble"
@@ -7344,12 +7364,12 @@ msgstr "スキップ"
 msgid "Skip from backup files that are equal to those in /rom"
 msgstr ""
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:40
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:42
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:46
 msgid "Skip to content"
 msgstr "コンテンツへ移動"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:39
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:41
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:45
 msgid "Skip to navigation"
 msgstr "ナビゲーションへ移動"
@@ -7970,7 +7990,7 @@ msgid "System log buffer size"
 msgstr "システムログバッファサイズ"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:79
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:69
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:71
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:89
 msgid "System running in recovery (initramfs) mode."
 msgstr "システムはリカバリー (initramfs) モードで実行中です。"
@@ -8144,24 +8164,26 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:7
 msgid "The LED blinks with the configured on/off frequency"
-msgstr ""
+msgstr "LED は設定されたオン/オフ間隔に基づいて点滅します。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/heartbeat.js:6
 msgid "The LED flashes to simulate actual heart beat."
-msgstr ""
+msgstr "LED は心拍を再現するように点滅します。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:8
 msgid ""
 "The LED flashes with link status and activity on the configured interface."
 msgstr ""
+"LED は、設定されたインターフェースにおけるリンク状態やアクティビティに基づい"
+"て点滅します。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:7
 msgid "The LED is always in default state off."
-msgstr ""
+msgstr "LED はデフォルトの状態で常にオフです。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/default-on.js:6
 msgid "The LED is always in default state on."
-msgstr ""
+msgstr "LED はデフォルトの状態で常にオンです。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:222
 msgid ""
@@ -8255,7 +8277,7 @@ msgstr "このシステムでは、現在以下のルールが有効です。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/heartbeat.js:7
 msgid "The frequency is in direct proportion to 1-minute average CPU load."
-msgstr ""
+msgstr "点滅周期は1分間の平均 CPU 負荷を表します。"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:154
 msgid "The gateway address must not be a local IP address"
@@ -8493,6 +8515,9 @@ msgid ""
 "There are legacy iptables rules present on the system. Mixing iptables and "
 "nftables rules is discouraged and may lead to incomplete traffic filtering."
 msgstr ""
+"システムにレガシーな iptables ルールが存在しています。iptables と nftables の"
+"ルールの混用は、不完全なトラフィックフィルタリングを引き起こす恐れがあり、推"
+"奨されません。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:745
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:777
@@ -8506,7 +8531,7 @@ msgid "There are no changes to apply"
 msgstr "適用する変更はありません"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:70
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:60
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:80
 msgid ""
 "There is no password set on this router. Please configure a root password to "
@@ -8695,7 +8720,7 @@ msgstr "トラフィッククラス"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:522
 msgid "Traffic filter chain \"%h\""
-msgstr ""
+msgstr "トラフィックフィルター チェーン \"%h\""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:460
 msgctxt "nft counter"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-13 23:53+0000\n"
-"Last-Translator: Josef Schlehofer <pepe@bloodkings.eu>\n"
+"PO-Revision-Date: 2022-10-22 18:07+0000\n"
+"Last-Translator: Abdullah AlShaikh <abdullah@alshai5.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/openwrt/luci/ar/"
 ">\n"
 "Language: ar\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:643
 msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
@@ -1516,6 +1516,10 @@ msgstr ""
 msgid "Compute outgoing checksum (optional)."
 msgstr "حساب المجموع الاختباري الصادر (اختياري)."
 
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Config File"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4367
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
 msgid "Configuration"
@@ -2830,11 +2834,11 @@ msgstr "خيارات إضافية pppd"
 msgid "Extra sstpc options"
 msgstr "خيارات sstpc إضافية"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
 msgid "FT over DS"
 msgstr "FT على DS"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
 msgid "FT over the Air"
 msgstr "FT عبر الأثير"
 
@@ -3218,13 +3222,13 @@ msgstr "خيارات الشبكة العالمية"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:82
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:89
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:74
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:92
 msgid "Go to firmware upgrade..."
 msgstr ""
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:72
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:64
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:82
 msgid "Go to password configuration..."
 msgstr "انتقل إلى تكوين كلمة المرور ..."
@@ -3458,12 +3462,20 @@ msgid "Hybrid"
 msgstr "هجين"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:49
+msgctxt "nft icmp code"
+msgid "ICMP code"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
+msgctxt "nft icmp type"
+msgid "ICMP type"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:51
 msgctxt "nft icmpv6 code"
 msgid "ICMPv6 code"
 msgstr ""
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:52
 msgctxt "nft icmpv6 type"
 msgid "ICMPv6 type"
@@ -5129,10 +5141,14 @@ msgstr "اسم"
 msgid "Name of the new network"
 msgstr "اسم الشبكة الجديدة"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:44
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:46
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:50
 msgid "Navigation"
 msgstr "التنقل"
+
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:10
+msgid "Nebula Network"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:653
 msgid "Neighbour cache validity"
@@ -5265,7 +5281,7 @@ msgstr "لا توجد إشارة RX"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:80
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:87
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:70
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:90
 msgid ""
 "No changes to settings will be stored and are lost after rebooting. This "
@@ -5351,7 +5367,7 @@ msgid "No nftables ruleset loaded."
 msgstr ""
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:69
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:59
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:61
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:79
 msgid "No password set!"
 msgstr "لم يتم تعيين كلمة مرور!"
@@ -6646,6 +6662,10 @@ msgstr "مطلوب لبعض مزودي خدمة الإنترنت ، على سب�
 msgid "Required. Base64-encoded private key for this interface."
 msgstr "مطلوب. المفتاح الخاص بترميز Base64 لهذه الواجهة."
 
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Required. Path to the .yml config file for this interface."
+msgstr ""
+
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:587
 msgid "Required. Public key of the WireGuard peer."
 msgstr ""
@@ -7271,12 +7291,12 @@ msgstr "تخطى"
 msgid "Skip from backup files that are equal to those in /rom"
 msgstr ""
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:40
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:42
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:46
 msgid "Skip to content"
 msgstr "تخطى الى المحتوى"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:39
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:41
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:45
 msgid "Skip to navigation"
 msgstr "تخطي إلى التصفح"
@@ -7878,7 +7898,7 @@ msgid "System log buffer size"
 msgstr "حجم المخزن المؤقت لسجل النظام"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:79
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:69
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:71
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:89
 msgid "System running in recovery (initramfs) mode."
 msgstr ""
@@ -8406,7 +8426,7 @@ msgid "There are no changes to apply"
 msgstr "لا توجد تغييرات لتطبيقها"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:70
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:60
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:80
 msgid ""
 "There is no password set on this router. Please configure a root password to "
@@ -9961,7 +9981,7 @@ msgstr "الوقت الصالح (HH: MM: SS)"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:450
 msgid "value between %d and %d characters"
-msgstr "قيمة بين %d و%d حرف"
+msgstr "قيمة بين %d و%d حرفًا"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:431
 msgid "value between %f and %f"
@@ -9969,15 +9989,15 @@ msgstr "قيمة بين %f و %f"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:435
 msgid "value greater or equal to %f"
-msgstr "قيمة أكبر أو تساوي %f"
+msgstr "قيمة أكبر من أو تساوي %f"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:439
 msgid "value smaller or equal to %f"
-msgstr "قيمة أصغر أو تساوي %f"
+msgstr "قيمة أصغر من أو تساوي %f"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:444
 msgid "value with %d characters"
-msgstr "قيمة مع %d حرف"
+msgstr "قيمة تحتوي على d% حرفًا"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:455
 msgid "value with at least %d characters"
@@ -9985,16 +10005,16 @@ msgstr "قيمة تحتوي على d% حرفًا على الأقل"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:460
 msgid "value with at most %d characters"
-msgstr "قيمة بحد أقصى d% حرف"
+msgstr "قيمة تحتوي على d% حرفًا كحد أقصى"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1396
 msgid "weak security"
-msgstr "ضعف الأمن"
+msgstr "ضعيف الأمن"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:72
 msgctxt "nft unit"
 msgid "week"
-msgstr ""
+msgstr "إسبوع"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:47
 msgid "yes"

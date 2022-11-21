@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2022-08-05 01:21+0000\n"
-"Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
+"PO-Revision-Date: 2022-11-05 16:57+0000\n"
+"Last-Translator: Simona Iacob <s@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/luci/ro/"
 ">\n"
 "Language: ro\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:643
 msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
@@ -1559,6 +1559,10 @@ msgstr ""
 msgid "Compute outgoing checksum (optional)."
 msgstr "Calculați suma de control de ieșire (opțional)."
 
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Config File"
+msgstr "Fișier de configurare"
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4367
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
 msgid "Configuration"
@@ -2905,11 +2909,11 @@ msgstr "Opțiuni suplimentare pppd"
 msgid "Extra sstpc options"
 msgstr "Opțiuni suplimentare sstpc"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
 msgid "FT over DS"
 msgstr "FT peste DS"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
 msgid "FT over the Air"
 msgstr "FT pe calea aerului"
 
@@ -3304,13 +3308,13 @@ msgstr "Opțiuni de rețea globală"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:82
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:89
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:74
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:92
 msgid "Go to firmware upgrade..."
 msgstr "Mergeți la actualizarea firmware-ului..."
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:72
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:64
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:82
 msgid "Go to password configuration..."
 msgstr "Mergeți la configurarea parolei..."
@@ -3549,12 +3553,20 @@ msgid "Hybrid"
 msgstr "Hibrid"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:49
+msgctxt "nft icmp code"
+msgid "ICMP code"
+msgstr "cod ICMP"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
+msgctxt "nft icmp type"
+msgid "ICMP type"
+msgstr "tip ICMP"
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:51
 msgctxt "nft icmpv6 code"
 msgid "ICMPv6 code"
 msgstr "Codul ICMPv6"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:52
 msgctxt "nft icmpv6 type"
 msgid "ICMPv6 type"
@@ -3979,7 +3991,7 @@ msgstr "Configurație de import"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:506
 msgid "Import configuration as peer…"
-msgstr ""
+msgstr "Importați configurația ca peer…"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:492
 msgid "Import settings"
@@ -4963,7 +4975,7 @@ msgstr "Putere maximă de transmisie"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js:330
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js:331
 msgid "Mbit/s"
-msgstr "Mbiți/s"
+msgstr "Mbit/s"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:35
 msgid "Medium"
@@ -5251,10 +5263,14 @@ msgstr "Nume"
 msgid "Name of the new network"
 msgstr "Numele noii rețele"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:44
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:46
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:50
 msgid "Navigation"
 msgstr "Navigare"
+
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:10
+msgid "Nebula Network"
+msgstr "Rețeaua Nebula"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:653
 msgid "Neighbour cache validity"
@@ -5387,7 +5403,7 @@ msgstr "Fără recepție semnal (RX)"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:80
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:87
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:70
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:90
 msgid ""
 "No changes to settings will be stored and are lost after rebooting. This "
@@ -5478,7 +5494,7 @@ msgid "No nftables ruleset loaded."
 msgstr "Nu s-a încărcat niciun set de reguli nftables."
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:69
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:59
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:61
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:79
 msgid "No password set!"
 msgstr "Nu este setată nicio parolă!"
@@ -6074,7 +6090,7 @@ msgstr "Încapsulare PPPoA"
 #: modules/luci-compat/luasrc/model/network/proto_ppp.lua:19
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:28
 msgid "PPPoATM"
-msgstr "PPP prin ATM"
+msgstr "PPPoATM"
 
 #: modules/luci-compat/luasrc/model/network/proto_ppp.lua:17
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:28
@@ -6818,6 +6834,12 @@ msgid "Required. Base64-encoded private key for this interface."
 msgstr ""
 "Este necesar. Cheia privată codificată în baza 64 pentru această interfață."
 
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Required. Path to the .yml config file for this interface."
+msgstr ""
+"Este necesar. Calea către fișierul de configurare .yml pentru această "
+"interfață."
+
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:587
 msgid "Required. Public key of the WireGuard peer."
 msgstr "Este necesar. Cheia publică a omologului WireGuard."
@@ -7468,12 +7490,12 @@ msgstr "Sari"
 msgid "Skip from backup files that are equal to those in /rom"
 msgstr "Omiteți din fișierele de rezervă care sunt egale cu cele din /rom"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:40
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:42
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:46
 msgid "Skip to content"
 msgstr "Sari la conținut"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:39
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:41
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:45
 msgid "Skip to navigation"
 msgstr "Sari la navigare"
@@ -8140,7 +8162,7 @@ msgid "System log buffer size"
 msgstr "Dimensiunea tamponului de jurnal de sistem"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:79
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:69
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:71
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:89
 msgid "System running in recovery (initramfs) mode."
 msgstr "Sistemul rulează în modul de recuperare (initramfs)."
@@ -8748,7 +8770,7 @@ msgid "There are no changes to apply"
 msgstr "Nu există modificări de aplicat"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:70
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:60
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:80
 msgid ""
 "There is no password set on this router. Please configure a root password to "

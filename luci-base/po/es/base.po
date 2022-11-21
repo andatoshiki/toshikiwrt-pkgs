@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2022-08-27 19:33+0000\n"
+"PO-Revision-Date: 2022-11-08 00:12+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/luci/es/"
 ">\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:643
 #, fuzzy
@@ -205,7 +205,7 @@ msgstr "Máscara de red <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:58
 msgid "<abbr title=\"Light Emitting Diode\">LED</abbr> Configuration"
-msgstr "Configuración de <abbr title=\"Light Emitting Diode\">LEDs</abbr>"
+msgstr "Configuración de <abbr title=\"Light Emitting Diode\">LED</abbr>"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:70
 msgid "<abbr title=\"Light Emitting Diode\">LED</abbr> Name"
@@ -588,7 +588,7 @@ msgstr "La configuración de la dirección no es válida"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:151
 msgid "Address to access local relay bridge"
-msgstr "Dirección del puente relé local"
+msgstr "Dirección para acceder al puente de relé local"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:289
 msgid "Addresses"
@@ -879,7 +879,7 @@ msgstr "Monte anónimo"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
 msgid "Anonymous Swap"
-msgstr "Swap anónimo"
+msgstr "Intercambio anónimo"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:512
 msgctxt "nft match any traffic"
@@ -1041,7 +1041,7 @@ msgstr "Montar automáticamente el sistemas de archivos en hotplug"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:166
 msgid "Automatically mount swap on hotplug"
-msgstr "Montar swap automáticamente en hotplug"
+msgstr "Montar intercambio automáticamente en hotplug"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:170
 msgid "Automount Filesystem"
@@ -1049,7 +1049,7 @@ msgstr "Montar el sistema de archivos automáticamente"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:166
 msgid "Automount Swap"
-msgstr "Montar Swap automáticamente"
+msgstr "Montar intercambio automáticamente"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:193
 msgid "Available"
@@ -1575,6 +1575,10 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:108
 msgid "Compute outgoing checksum (optional)."
 msgstr "Calcular la suma de verificación saliente (opcional)."
+
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Config File"
+msgstr "Archivo de configuración"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4367
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
@@ -2930,11 +2934,11 @@ msgstr "Opciones de pppd adicionales"
 msgid "Extra sstpc options"
 msgstr "Opciones de sstpc adicionales"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
 msgid "FT over DS"
 msgstr "FT sobre DS"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1539
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1538
 msgid "FT over the Air"
 msgstr "FT sobre The Air"
 
@@ -3338,13 +3342,13 @@ msgstr "Opciones globales de red"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:82
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:89
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:74
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:92
 msgid "Go to firmware upgrade..."
 msgstr "Ir a actualización de firmware..."
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:72
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:64
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:82
 msgid "Go to password configuration..."
 msgstr "Ir a la configuración de la contraseña..."
@@ -3585,12 +3589,20 @@ msgid "Hybrid"
 msgstr "Híbrido"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:49
+msgctxt "nft icmp code"
+msgid "ICMP code"
+msgstr "código ICMP"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
+msgctxt "nft icmp type"
+msgid "ICMP type"
+msgstr "tipo ICMP"
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:51
 msgctxt "nft icmpv6 code"
 msgid "ICMPv6 code"
 msgstr "Código ICMPv6"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:52
 msgctxt "nft icmpv6 type"
 msgid "ICMPv6 type"
@@ -3983,10 +3995,10 @@ msgid ""
 msgstr ""
 "Si su dispositivo no tiene <abbr title=\"Random Access Memory\">RAM</abbr> "
 "suficiente, los datos no utilizados pueden ser guardados temporalmente en un "
-"dispositivo de Swap (swap-device) liberando el espacio que ocupan. Tenga en "
-"cuenta que el Swap es un proceso lento porque este método no puede "
-"transferir volúmenes de información a alta velocidad tal y como hace la "
-"<abbr title=\"Random Access Memory\">RAM</abbr>."
+"dispositivo de intercambio (swap-device) liberando el espacio que ocupan. "
+"Tenga en cuenta que el intercambio es un proceso lento porque este método no "
+"puede transferir volúmenes de información a alta velocidad tal y como hace "
+"la <abbr title=\"Random Access Memory\">RAM</abbr>."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:363
 msgid "Ignore <code>/etc/hosts</code>"
@@ -4019,7 +4031,7 @@ msgstr "Importar configuración"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:506
 msgid "Import configuration as peer…"
-msgstr ""
+msgstr "Importar configuración como par…"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:492
 msgid "Import settings"
@@ -4775,11 +4787,11 @@ msgstr "Registrar consultas"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:123
 msgid "Logging"
-msgstr "Inicio de sesión"
+msgstr "Registro"
 
 #: themes/luci-theme-bootstrap/htdocs/luci-static/resources/view/bootstrap/sysauth.js:23
 msgid "Logging in…"
-msgstr "Iniciando sesión…"
+msgstr "Registrando…"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:57
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:57
@@ -5186,7 +5198,7 @@ msgstr "Puntos de montaje - Entrada de montaje"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:340
 msgid "Mount Points - Swap Entry"
-msgstr "Puntos de montaje - Entrada de Swap"
+msgstr "Puntos de montaje - Entrada de intercambio"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:228
 msgid ""
@@ -5214,7 +5226,7 @@ msgstr "Punto de montaje"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
 msgid "Mount swap not specifically configured"
-msgstr "Montaje de Swap no configurado específicamente"
+msgstr "Montaje de intercambio no configurado específicamente"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:223
 msgid "Mounted file systems"
@@ -5288,10 +5300,15 @@ msgstr "Nombre"
 msgid "Name of the new network"
 msgstr "Nombre de la nueva red"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:44
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:46
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:50
 msgid "Navigation"
 msgstr "Navegación"
+
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:10
+#, fuzzy
+msgid "Nebula Network"
+msgstr "Red Nebula"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:653
 msgid "Neighbour cache validity"
@@ -5425,7 +5442,7 @@ msgstr "No hay señal RX"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:80
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:87
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:70
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:72
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:90
 msgid ""
 "No changes to settings will be stored and are lost after rebooting. This "
@@ -5519,7 +5536,7 @@ msgid "No nftables ruleset loaded."
 msgstr "No se ha cargado ningún conjunto de reglas de nftables."
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:69
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:59
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:61
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:79
 msgid "No password set!"
 msgstr "¡Sin contraseña!"
@@ -6777,12 +6794,12 @@ msgstr ""
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua:153
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:39
 msgid "Relay"
-msgstr "Relé (relayd)"
+msgstr "Relé"
 
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua:157
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:36
 msgid "Relay Bridge"
-msgstr "Puente de reenvío"
+msgstr "Puente de relé"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:154
 msgid "Relay between networks"
@@ -6791,7 +6808,7 @@ msgstr "Relé entre redes"
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua:12
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:64
 msgid "Relay bridge"
-msgstr "Puente de reenvío"
+msgstr "Puente de relé"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:50
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6rd.js:49
@@ -6864,6 +6881,10 @@ msgstr "Requerido para ciertos ISPs, por ejemplo Charter con DOCSIS 3"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:151
 msgid "Required. Base64-encoded private key for this interface."
 msgstr "Requerido. Clave privada codificada en base64 para esta interfaz."
+
+#: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+msgid "Required. Path to the .yml config file for this interface."
+msgstr "Requerido. Ruta al archivo de configuración .yml para esta interfaz."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:587
 msgid "Required. Public key of the WireGuard peer."
@@ -7229,7 +7250,7 @@ msgstr "Servidor SSTP"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:339
 msgid "SWAP"
-msgstr "SWAP"
+msgstr "INTERCAMBIO"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3269
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2192
@@ -7518,12 +7539,12 @@ msgid "Skip from backup files that are equal to those in /rom"
 msgstr ""
 "Omitir archivos de la copia de seguridad que sean iguales a los de /rom"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:40
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:42
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:46
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:39
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:41
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:45
 msgid "Skip to navigation"
 msgstr "Saltar a navegación"
@@ -8116,7 +8137,7 @@ msgstr "Suprime el registro de la operación de rutina para el protocolo DHCP."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/20_memory.js:46
 msgid "Swap free"
-msgstr "Swap libre"
+msgstr "Intercambio libre"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:139
 #: modules/luci-mod-network/root/usr/share/luci/menu.d/luci-mod-network.json:3
@@ -8191,7 +8212,7 @@ msgid "System log buffer size"
 msgstr "Tamaño del buffer de registro del sistema"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:79
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:69
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:71
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:89
 msgid "System running in recovery (initramfs) mode."
 msgstr "El sistema se ejecuta en modo de recuperación (initramfs)."
@@ -8800,7 +8821,7 @@ msgid "There are no changes to apply"
 msgstr "No hay cambios para aplicar"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:70
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:60
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:80
 msgid ""
 "There is no password set on this router. Please configure a root password to "
